@@ -1,0 +1,26 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "This repository contains my solutions to Leetcode problems and excercises. I am using this repository to keep track of my progress and to share my solutions with others. I am also using this repository to learn how to use git and github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrazam95/leetcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrazam95/leetcode/issues"
+  },
+  "homepage": "https://github.com/nrazam95/leetcode#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "mocha": {
+    "spec": "*/test/*.js"
+  }
+}
